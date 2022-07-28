@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class=" shadow card bg-dark text-white">
+    <div class="card-body">
+        <form method="POST">
+    {% csrf_token %}
+     <h5 class="card-title">Are you sure this task is done?</h5>
+
+    <button type="submit">Confirm</button>
+</form>
+
+    </div>
+</div>
+</body>
+{% endblock %}

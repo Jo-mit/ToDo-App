@@ -1,0 +1,15 @@
+ .banner{
+ background-color:Thistle;
+ width:203%;
+ height:140px;
+ margin-bottom:50px;
+
+ }
+
+.banner-text{
+top:5%;
+left:41%;
+position:absolute;
+transform:transform;
+
+}
